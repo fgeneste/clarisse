@@ -1,0 +1,39 @@
+entity Personne {
+	matricule           String,
+   	dateDeNaissance    LocalDate,
+   	lieuDeNaissance    String,
+   	departementDeNaissance Long,
+   	dateDeDeces        LocalDate,
+   	lieuDeDeces        String,
+   	departementDeDeces Long,
+   	profession           String,
+   	diplome              String,
+   	decoration           String,
+   	rangProtocolaire    Long,
+   	cspInsee            String	
+}
+
+entity NuancePolitique {
+	codeNuancePolitique String,
+    libelle String
+}
+
+entity Noms {
+    qualite String,
+    nomUsuel String,
+    prenomUsuel String,
+    nomPatronymique String,
+    prenomCivil String,
+    nomMarital String,
+    nomDistinctif String,
+    nomMajuscule String,
+    nomTechnique String,
+    feminisation String,
+    dateDebut LocalDate,
+    dateFin LocalDate
+}
+
+relationship ManyToOne {
+    NuancePolitique to Personne{nuance},
+    Noms to Personne{matricule},
+}
