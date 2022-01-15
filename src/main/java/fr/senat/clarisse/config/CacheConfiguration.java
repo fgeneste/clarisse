@@ -51,6 +51,11 @@ public class CacheConfiguration {
             createCache(cm, fr.senat.clarisse.domain.User.class.getName());
             createCache(cm, fr.senat.clarisse.domain.Authority.class.getName());
             createCache(cm, fr.senat.clarisse.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".nuances");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".matricules");
+            createCache(cm, fr.senat.clarisse.domain.NuancePolitique.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Noms.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

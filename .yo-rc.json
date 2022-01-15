@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Personne", "NuancePolitique", "Noms"],
+    "lastLiquibaseTimestamp": 1642258356000
   },
   "git-provider": "GitHub",
   "git-company": "fgeneste",

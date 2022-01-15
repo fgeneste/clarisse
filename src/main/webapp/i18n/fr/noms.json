@@ -1,0 +1,36 @@
+{
+  "clarisseApp": {
+    "noms": {
+      "home": {
+        "title": "Noms",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Noms",
+        "createOrEditLabel": "Créer ou éditer un Noms",
+        "notFound": "Aucun Noms trouvé"
+      },
+      "created": "Un nouveau Noms a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Noms avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Noms avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Noms {{ id }} ?"
+      },
+      "detail": {
+        "title": "Noms"
+      },
+      "id": "ID",
+      "qualite": "Qualite",
+      "nomUsuel": "Nom Usuel",
+      "prenomUsuel": "Prenom Usuel",
+      "nomPatronymique": "Nom Patronymique",
+      "prenomCivil": "Prenom Civil",
+      "nomMarital": "Nom Marital",
+      "nomDistinctif": "Nom Distinctif",
+      "nomMajuscule": "Nom Majuscule",
+      "nomTechnique": "Nom Technique",
+      "feminisation": "Feminisation",
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "personne": "Personne"
+    }
+  }
+}
