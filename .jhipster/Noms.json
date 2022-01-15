@@ -1,0 +1,71 @@
+{
+  "name": "Noms",
+  "fields": [
+    {
+      "fieldName": "qualite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomUsuel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenomUsuel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomPatronymique",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenomCivil",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomMarital",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomDistinctif",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomMajuscule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomTechnique",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "feminisation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebut",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFin",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "personne",
+      "otherEntityRelationshipName": "matricule",
+      "relationshipName": "personne"
+    }
+  ],
+  "entityTableName": "noms",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220115145524"
+}

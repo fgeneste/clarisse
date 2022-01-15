@@ -1,0 +1,26 @@
+{
+  "clarisseApp": {
+    "nuancePolitique": {
+      "home": {
+        "title": "Nuance Politiques",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Nuance Politique",
+        "createOrEditLabel": "Create or edit a Nuance Politique",
+        "notFound": "No Nuance Politiques found"
+      },
+      "created": "A new Nuance Politique is created with identifier {{ param }}",
+      "updated": "A Nuance Politique is updated with identifier {{ param }}",
+      "deleted": "A Nuance Politique is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nuance Politique {{ id }}?"
+      },
+      "detail": {
+        "title": "Nuance Politique"
+      },
+      "id": "ID",
+      "codeNuancePolitique": "Code Nuance Politique",
+      "libelle": "Libelle",
+      "personne": "Personne"
+    }
+  }
+}
