@@ -1,0 +1,37 @@
+{
+  "clarisseApp": {
+    "personne": {
+      "home": {
+        "title": "Personnes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Personne",
+        "createOrEditLabel": "Create or edit a Personne",
+        "notFound": "No Personnes found"
+      },
+      "created": "A new Personne is created with identifier {{ param }}",
+      "updated": "A Personne is updated with identifier {{ param }}",
+      "deleted": "A Personne is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Personne {{ id }}?"
+      },
+      "detail": {
+        "title": "Personne"
+      },
+      "id": "ID",
+      "matricule": "Matricule",
+      "dateDeNaissance": "Date De Naissance",
+      "lieuDeNaissance": "Lieu De Naissance",
+      "departementDeNaissance": "Departement De Naissance",
+      "dateDeDeces": "Date De Deces",
+      "lieuDeDeces": "Lieu De Deces",
+      "departementDeDeces": "Departement De Deces",
+      "profession": "Profession",
+      "diplome": "Diplome",
+      "decoration": "Decoration",
+      "rangProtocolaire": "Rang Protocolaire",
+      "cspInsee": "Csp Insee",
+      "nuance": "Nuance",
+      "matricule": "Matricule"
+    }
+  }
+}
