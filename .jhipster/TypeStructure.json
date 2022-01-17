@@ -1,0 +1,52 @@
+{
+  "name": "TypeStructure",
+  "fields": [
+    {
+      "fieldName": "codeTypeStructure",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelleCourt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libellePluriel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlComplete",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlSimplifie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ordre",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "structure",
+      "otherEntityRelationshipName": "typeStructure",
+      "relationshipName": "structure",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "type_structure",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220117103853"
+}

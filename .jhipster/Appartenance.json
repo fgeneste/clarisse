@@ -1,0 +1,76 @@
+{
+  "name": "Appartenance",
+  "fields": [
+    {
+      "fieldName": "matricule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebut",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFin",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateElection",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "observation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "departement",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "article",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "motifDeDebut",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "commentaireDeChangement",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "typeAppartenance",
+      "otherEntityRelationshipName": "appartenance",
+      "relationshipName": "typeAppartenance",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "structure",
+      "otherEntityRelationshipName": "appartenance",
+      "relationshipName": "structure"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "personne",
+      "otherEntityRelationshipName": "appartenance",
+      "relationshipName": "personne"
+    }
+  ],
+  "entityTableName": "appartenance",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220117103851"
+}

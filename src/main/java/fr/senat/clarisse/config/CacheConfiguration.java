@@ -51,6 +51,22 @@ public class CacheConfiguration {
             createCache(cm, fr.senat.clarisse.domain.User.class.getName());
             createCache(cm, fr.senat.clarisse.domain.Authority.class.getName());
             createCache(cm, fr.senat.clarisse.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".nuances");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".matricules");
+            createCache(cm, fr.senat.clarisse.domain.NuancePolitique.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Noms.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.NuancePolitique.class.getName() + ".nuances");
+            createCache(cm, fr.senat.clarisse.domain.Noms.class.getName() + ".matricules");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".noms");
+            createCache(cm, fr.senat.clarisse.domain.Personne.class.getName() + ".appartenances");
+            createCache(cm, fr.senat.clarisse.domain.Appartenance.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Structure.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.TypeStructure.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.TypeAppartenance.class.getName());
+            createCache(cm, fr.senat.clarisse.domain.Structure.class.getName() + ".structures");
+            createCache(cm, fr.senat.clarisse.domain.NuancePolitique.class.getName() + ".personnes");
+            createCache(cm, fr.senat.clarisse.domain.Structure.class.getName() + ".appartenances");
             // jhipster-needle-ehcache-add-entry
         };
     }

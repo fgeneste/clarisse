@@ -1,0 +1,26 @@
+{
+  "clarisseApp": {
+    "typeAppartenance": {
+      "home": {
+        "title": "Type Appartenances",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Type Appartenance",
+        "createOrEditLabel": "Create or edit a Type Appartenance",
+        "notFound": "No Type Appartenances found"
+      },
+      "created": "A new Type Appartenance is created with identifier {{ param }}",
+      "updated": "A Type Appartenance is updated with identifier {{ param }}",
+      "deleted": "A Type Appartenance is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Type Appartenance {{ id }}?"
+      },
+      "detail": {
+        "title": "Type Appartenance"
+      },
+      "id": "ID",
+      "typeAppartenance": "Type Appartenance",
+      "libelle": "Libelle",
+      "appartenance": "Appartenance"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "clarisseApp": {
+    "typeStructure": {
+      "home": {
+        "title": "TypeStructures",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Type Structure",
+        "createOrEditLabel": "Créer ou éditer un Type Structure",
+        "notFound": "Aucun Type Structure trouvé"
+      },
+      "created": "Un nouveau Type Structure a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Type Structure avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Type Structure avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Type Structure {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type Structure"
+      },
+      "id": "ID",
+      "codeTypeStructure": "Code Type Structure",
+      "libelle": "Libelle",
+      "libelleCourt": "Libelle Court",
+      "libellePluriel": "Libelle Pluriel",
+      "urlComplete": "Url Complete",
+      "urlSimplifie": "Url Simplifie",
+      "ordre": "Ordre",
+      "structure": "Structure"
+    }
+  }
+}

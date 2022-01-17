@@ -1,0 +1,92 @@
+entity Personne {
+	matricule           String,
+   	dateDeNaissance    LocalDate,
+   	lieuDeNaissance    String,
+   	departementDeNaissance Long,
+   	dateDeDeces        LocalDate,
+   	lieuDeDeces        String,
+   	departementDeDeces Long,
+   	profession           String,
+   	diplome              String,
+   	decoration           String,
+   	rangProtocolaire    Long,
+   	cspInsee          String
+}
+
+entity NuancePolitique {
+	codeNuancePolitique String,
+    libelle String
+}
+
+entity Noms {
+    qualite String,
+    nomUsuel String,
+    prenomUsuel String,
+    nomPatronymique String,
+    prenomCivil String,
+    nomMarital String,
+    nomDistinctif String,
+    nomMajuscule String,
+    nomTechnique String,
+    feminisation String,
+    dateDebut LocalDate,
+    dateFin LocalDate
+}
+
+entity Appartenance {
+	matricule String,
+	dateDebut LocalDate,
+	dateFin LocalDate,
+	dateElection LocalDate,
+	observation String,
+	departement Long,
+	libelle String,
+	article String,
+	//manDateElectionLocalDate,
+	motifDeDebut String,
+	motifDeDebut String,
+	commentaireDeChangement String
+}
+
+entity Structure {
+	//ID_TYPE_STRUCTURE	NUMERIC(38)	38		FALSE	TRUE	TRUE
+	codeStructure String,
+	dateDeCreation LocalDate,
+	dateDeCloture LocalDate,
+	codeAmeli String,
+	codeSirpas String,
+	codeReprographie String,
+	article String,
+	libelle String,
+	libelleCourt String,
+	libelleLong String,
+	ordre Long,
+	publicationSurInternet String,
+}
+
+entity TypeStructure {
+	codeTypeStructure String,
+	libelle String
+	libelleCourt String
+	libellePluriel String
+	urlComplete String
+	urlSimplifie String
+	ordre Long
+}
+
+entity TypeAppartenance {
+	typeAppartenance String,
+	libelle String,
+}
+
+relationship ManyToOne {
+    Personne to NuancePolitique{personne},
+    Appartenance to Structure{appartenance},
+    Noms to Personne{noms},
+    Appartenance to Personne{appartenance},
+}
+
+relationship OneToOne {
+    Appartenance to TypeAppartenance,
+    Structure to TypeStructure
+}

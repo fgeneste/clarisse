@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Appartenance.
+    -->
+    <changeSet id="20220117103851-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="type_appartenance_id"
+                                 baseTableName="appartenance"
+                                 constraintName="fk_appartenance__type_appartenance_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="type_appartenance"/>
+
+        <addForeignKeyConstraint baseColumnNames="structure_id"
+                                 baseTableName="appartenance"
+                                 constraintName="fk_appartenance__structure_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="structure"/>
+
+        <addForeignKeyConstraint baseColumnNames="personne_id"
+                                 baseTableName="appartenance"
+                                 constraintName="fk_appartenance__personne_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="personne"/>
+    </changeSet>
+</databaseChangeLog>

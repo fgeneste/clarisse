@@ -1,0 +1,78 @@
+{
+  "name": "Structure",
+  "fields": [
+    {
+      "fieldName": "codeStructure",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDeCreation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateDeCloture",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "codeAmeli",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeSirpas",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeReprographie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "article",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelleCourt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelleLong",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ordre",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "publicationSurInternet",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "typeStructure",
+      "otherEntityRelationshipName": "structure",
+      "relationshipName": "typeStructure",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "appartenance",
+      "otherEntityRelationshipName": "structure",
+      "relationshipName": "appartenance"
+    }
+  ],
+  "entityTableName": "structure",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220117103852"
+}

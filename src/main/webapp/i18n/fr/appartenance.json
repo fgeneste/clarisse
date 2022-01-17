@@ -1,0 +1,36 @@
+{
+  "clarisseApp": {
+    "appartenance": {
+      "home": {
+        "title": "Appartenances",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Appartenance",
+        "createOrEditLabel": "Créer ou éditer un Appartenance",
+        "notFound": "Aucun Appartenance trouvé"
+      },
+      "created": "Un nouveau Appartenance a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Appartenance avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Appartenance avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Appartenance {{ id }} ?"
+      },
+      "detail": {
+        "title": "Appartenance"
+      },
+      "id": "ID",
+      "matricule": "Matricule",
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "dateElection": "Date Election",
+      "observation": "Observation",
+      "departement": "Departement",
+      "libelle": "Libelle",
+      "article": "Article",
+      "motifDeDebut": "Motif De Debut",
+      "commentaireDeChangement": "Commentaire De Changement",
+      "typeAppartenance": "Type Appartenance",
+      "structure": "Structure",
+      "personne": "Personne"
+    }
+  }
+}

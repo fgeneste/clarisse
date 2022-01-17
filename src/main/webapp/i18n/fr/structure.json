@@ -1,0 +1,37 @@
+{
+  "clarisseApp": {
+    "structure": {
+      "home": {
+        "title": "Structures",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Structure",
+        "createOrEditLabel": "Créer ou éditer un Structure",
+        "notFound": "Aucun Structure trouvé"
+      },
+      "created": "Un nouveau Structure a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Structure avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Structure avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Structure {{ id }} ?"
+      },
+      "detail": {
+        "title": "Structure"
+      },
+      "id": "ID",
+      "codeStructure": "Code Structure",
+      "dateDeCreation": "Date De Creation",
+      "dateDeCloture": "Date De Cloture",
+      "codeAmeli": "Code Ameli",
+      "codeSirpas": "Code Sirpas",
+      "codeReprographie": "Code Reprographie",
+      "article": "Article",
+      "libelle": "Libelle",
+      "libelleCourt": "Libelle Court",
+      "libelleLong": "Libelle Long",
+      "ordre": "Ordre",
+      "publicationSurInternet": "Publication Sur Internet",
+      "typeStructure": "Type Structure",
+      "appartenance": "Appartenance"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "TypeAppartenance",
+  "fields": [
+    {
+      "fieldName": "typeAppartenance",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "appartenance",
+      "otherEntityRelationshipName": "typeAppartenance",
+      "relationshipName": "appartenance",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "type_appartenance",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220117103854"
+}
